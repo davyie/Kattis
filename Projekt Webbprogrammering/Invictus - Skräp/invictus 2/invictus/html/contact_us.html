@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="sv-se">
+    
+<head>
+    <meta charset="utf-8" />
+    <title>Contact_us</title>
+    <link rel="stylesheet" href="../css/contact_us.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+</head>
+    
+<body>
+    
+<header>
+    
+<div>
+    <a href="../php/index.html" ><img src="../images/logo.png"/></a>
+    </div>
+    
+    <nav id="navigation" class="global-navigation" role="navigation">
+    <ul class="global">
+        <li class="huvudmeny"><a href="../php/watches.html">Watches</a>
+        <ul class="drop">
+        <li class="submeny"><a href="../php/classic.php">Classic Watches</a></li>
+        <li class="submeny"><a href="../php/exclusive.php">Exclusive Watches</a</li>
+        <li class="submeny"><a href="../php/sport.php">Sport Watches</a>           </li>
+        </ul>
+        </li>
+    <li class="huvudmeny"><a href="../php/our_story.html">Our story</a>         </li>
+    <li class="huvudmeny"><a href="../php/social_media.html">Social media</a></li>
+    <li class="huvudmeny"><a class="aktiv" href="contact_us.html">Contact us</a>       </li>
+    <li class="huvudmeny"><a href="../php/kassa.php">Shopping cart</a></li>
+    </ul>
+</nav>
+        
+</header>
+    
+<section>
+    <div id="mail">
+        
+    <h2>E-mail</h2>
+        
+    <form action="../php/contact_us.php" method="post">
+    <p><label for="fornamn">First name: </label>
+    <br>
+    <input type="text" id="fornamn" name="fornamn" size="30" /></p>
+    <p><label for="fornamn">Last name: </label>
+    <br>
+    <input type="text" id="efternamn" name="efternamn" size="30" /></p>
+    <p><label for="email">E-mail: </label>
+    <br>
+    <input type="text" id="message" name="email" size="30" /></p>
+    <p><label for="message">Message: </label>
+    <br>
+    <textarea id="message" name="message" ></textarea></p> 
+    <p><input type="submit" id="send" name="send" value="Send" /></p>
+    </form>
+        
+    </div>
+
+    <div>
+    <h1>or</h1>
+    </div>
+    
+    <div id="nr">
+    <h2>Call</h2>
+        <a href="tel:+46 589-861-00">+46 589-861-00</a>
+    </div>
+</section>
+    
+<footer>
+    <div id="adress">
+        Contact us
+    <br>
+    <br>
+        Sturegatan 4
+    <br>
+        114 35 Stockholm
+    <br>
+        Sweden
+    <br>
+        <a href="mailto:invictuswatches@gmail.com">invictuswatches@gmail.com</a>
+    <br>
+        <a href="tel:+46 589-861-00">+46 589-861-00</a>
+    </div>
+    
+    <div id="social">
+        Social media
+    <br>
+    <br>
+        <a href="https://www.instagram.com/invictuswatches/">
+        <img src="../images/instagram.png" alt="instagram"/>
+        </a>
+        <a href="https://twitter.com/InvictusWatches">
+        <img src="../images/twitter.png" alt="twitter" />     
+        </a>
+        <a href="https://www.facebook.com/invictuswatches/?notif_t=fbpage_fan_invite">
+        <img src="../images/facebook.png" alt="facebook" />     
+        </a>
+    </div>
+    
+    <div id="account">
+        Account
+    <br>
+    <br>
+        <a href="log_in.php">Log in</a>
+    <br>
+        <a href="sign_up.php">Sign up</a>
+    </div>
+    
+    <div id="payment">
+        Payment methods
+    <br>
+    <br>
+        <img src="../images/mastercard.png" alt="mc" />     
+        <img src="../images/americanexpress.png" alt="amex" />     
+        <img src="../images/visa.png" alt="visa" />     
+        </div>
+</footer>
+    
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/*
+Invictus inc.
+invictuswatches@gmail.com
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+header {
+    background-image: url(../images/social_media.jpg);
+}
+
+section div {
+    float:left;
+    text-align: center;
+    margin-left: 10.5%;
+    margin-top: 14%;
+}
+
+h2 {
+    color: #fff;
+    text-align: center;
+    margin-top:-20%;
+}
+
+h1 {
+    color: #555;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: -55%;
+    left: 0;
+}

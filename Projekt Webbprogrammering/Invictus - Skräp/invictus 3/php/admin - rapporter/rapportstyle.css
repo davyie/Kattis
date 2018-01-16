@@ -1,0 +1,45 @@
+@import url("../style.css");
+
+table, tr, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.logo {
+background-image: url("./img/report.png");
+background-repeat:no-repeat;
+background-attachment: relative;
+background-position: 800px 30px;
+
+}
+
+
+
+
+
+
+/********* för D3 **********/
+
+
+.bar {
+  fill: green;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+

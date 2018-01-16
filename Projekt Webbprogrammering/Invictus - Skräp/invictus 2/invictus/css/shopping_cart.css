@@ -1,0 +1,24 @@
+/*
+Invictus inc.
+invictuswatches@gmail.com
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+header {
+    background-image: url(../images/invictus_cover.jpg);
+}
+
+.global-navigation a.aktiv {
+    color: #e6aa00 !important;
+}
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: -120%;
+    left: 0;
+}

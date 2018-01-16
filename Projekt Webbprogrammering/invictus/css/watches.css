@@ -1,0 +1,65 @@
+/*
+Invictus inc.
+invictuswatches@gmail.com
+*/
+
+body {
+    background-repeat: no-repeat;
+    background-color: #fff;
+}
+
+header {
+    background-image: url(../images/invictus_cover.jpg);
+}
+
+aside h1:hover {
+    color: #555;
+    text-decoration: underline;
+}
+
+aside h1.aktiv {
+    color: #555;
+    text-decoration: underline;
+}
+
+aside {
+    margin-top: -5%;
+}
+
+aside a h1 {
+    margin-left:12.9%;
+    float:left;
+    color: #555;
+    text-decoration: none;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 400%;
+    width: 16%;
+}
+
+article {
+    margin-top: 10%;
+}
+
+#text {
+    margin-top: -2%;
+}
+
+
+h1 {
+    text-align: center; 
+}
+
+p {
+    text-align: center;
+}
+
+
+footer {
+    position: absolute;
+    right: 0;
+    bottom: -130%;
+    left: 0;
+}
+
+    

@@ -1,0 +1,51 @@
+/*
+Invictus inc.
+invictuswatches@gmail.com
+*/
+
+/*fixar allt innehåll i footern*/
+footer {
+    overflow: auto;
+    color: #fff;
+    background-color: #aaa;
+}
+
+footer a {
+    color: #fff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+footer div {
+    margin-left: 4%;
+}
+
+footer #adress {
+    float:left;
+    text-align: center;
+    height: 11%;
+    width: 19%;
+}
+
+footer #social {
+    float:left;
+    text-align: center;
+    height: 11%;
+    width: 19%;
+}
+
+footer #account {
+    float:left;
+    text-align: center;
+    height: 11%;
+    width: 19%;
+}
+
+footer #payment {
+    float:left;
+    text-align: center;
+    height: 11%;
+    width: 19%;
+}

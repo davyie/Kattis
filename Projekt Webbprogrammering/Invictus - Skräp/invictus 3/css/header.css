@@ -1,0 +1,189 @@
+section a {
+    color: #555;
+}
+
+section a:hover {
+    text-decoration: underline;
+}
+    
+a:link {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Avenir, Kursiv", "Avenir Next", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN";
+}
+body {
+    font-family: "Avenir, Kursiv", "Avenir Next", "Hiragino Kaku Gothic Pro", "Hiragino Kaku Gothic ProN";
+    font-family color:#555;
+    margin: 0;
+    line-height: 140%;
+    color: #555;
+}
+
+header, footer, section {
+    padding: 4% 8%;
+}
+
+header {
+    overflow: auto;
+}
+
+div {
+    float: left;
+}
+
+.global-navigation a:hover {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.global-navigation a.aktiv {
+    color: #fff;
+    text-decoration: underline;
+}
+
+.global-navigation {
+    margin-bottom: 28.9%;
+}
+
+.huvudmeny {
+    margin-left: 6%;
+    
+}
+
+.submeny {
+    margin-top: -5% ;
+}
+
+.global-navigation ul {
+    padding-left: 0;
+}
+
+.global-navigation li {
+    color: #fff;
+    display: block;
+    float: left;
+    padding-top: 2%;
+    padding-left: 2%;
+    position: relative;
+    text-decoration: none;
+}
+  
+.global-navigation a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.global-navigation ul li ul {
+    visibility: hidden;
+    float: left;
+    min-width: 150px; /*procent*/
+    position: absolute;
+    transition: visibility 0.10s ease-in;
+    margin-top:12%;
+    left: 16%;
+}
+
+.global-navigation ul li:hover ul,
+.global-navigation ul li ul:hover {
+   visibility: visible;
+}
+
+.global-navigation ul li ul li {
+    padding: 3%;
+    width: 100%;
+}
+
+form {
+    color: #555;
+    text-align: center;
+}
+
+input {
+    width: 95.5%;
+    padding: 2.5%;
+    margin: 1.5% 0;
+    box-sizing: border-box;
+    border: 1px solid; procent*/
+    border-radius: 4px; /*procent*/
+}
+
+textarea {
+    width: 95.5%;
+    height: 100px;/*procent*/
+    padding: 2.5%;
+    margin: 1.5% 0;
+    box-sizing: border-box;
+    border: 1px solid; /*procent*/
+    border-radius: 4px; /*procent*/
+    resize: none;
+}
+
+
+/*Test css
+
+.global-navigation2 a:hover {
+    color: #555;
+}
+
+.global-navigation2 a.aktiv {
+    color: #333;
+}
+
+.global-navigation2 {
+    margin-bottom: 28.9%;
+    position: absolute;
+    right: 9%;
+    top: -20px;
+    
+}
+
+.huvudmeny2 {
+    margin-left: 6%;
+    margin-top:;
+}
+
+.submeny2 {
+    margin-top: -5% ;
+}
+
+.global-navigation2 ul {
+    padding-left: 0;
+}
+
+.global-navigation2 li {
+    color: #fff;
+    display: block;
+    float: left;
+    padding: 2%;
+    position: relative;
+    text-decoration: none;
+}
+  
+.global-navigation2 a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+}
+
+.global-navigation2 ul li ul {
+    visibility: hidden;
+    float: left;
+    min-width: 150px; /*procent
+    position: absolute;
+    transition: visibility 0.10s ease-in;
+    margin-top:12%;
+    left: 16%;
+}
+
+.global-navigation2 ul li:hover ul,
+.global-navigation2 ul li ul:hover {
+   visibility: visible;
+}
+
+.global-navigation2 ul li ul li {
+    padding: 3%;
+    width: 100%;
+}*/

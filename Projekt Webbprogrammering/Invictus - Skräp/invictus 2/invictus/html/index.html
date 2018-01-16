@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="sv-se">
+    
+<head>
+    <meta charset="utf-8" />
+    <title>Invictus</title>
+    <link rel="stylesheet" href="../css/index.css"/>
+    <link rel="stylesheet" href="../css/header.css"/>
+    <link rel="stylesheet" href="../css/footer.css"/>
+    <!--Test script-->
+    <script type="text/javascript" src="../jquery-1.11.3.min.js"></script>
+    <script>
+ jQuery(function($){
+     $( '.menu-btn' ).click(function(){
+     $('.responsive-menu').addClass('expand')
+     $('.menu-btn').addClass('btn-none')
+     })
+     
+     $( '.close-btn' ).click(function(){
+     $('.responsive-menu').removeClass('expand')
+     $('.menu-btn').removeClass('btn-none')
+     })
+   })
+ </script>
+
+</head>
+    
+<body>
+    
+<header>
+    
+    <!--aside>
+        <a href="log_in.html">Log in</a>
+        <a href="sign_up.html">Sign up</a>
+    </aside-->
+    <div>
+    <a href="index.html" ><img src="../images/logo.png"/></a>
+    </div>
+    
+    <nav id="navigation" class="global-navigation" role="navigation">
+    <ul class="global">
+        <li class="huvudmeny"><a href="watches.html">Watches</a>
+        <ul class="drop">
+        <li class="submeny"><a href="classic.php">Classic Watches</a></li>
+        <li class="submeny"><a href="exclusive.php">Exclusive Watches</a</li>
+        <li class="submeny"><a href="sport.php">Sport Watches</a>           </li>
+        </ul>
+        </li>
+    <li class="huvudmeny"><a href="our_story.html">Our story</a>         </li>
+    <li class="huvudmeny"><a href="social_media.html">Social media</a></li>
+    <li class="huvudmeny"><a href="contact_us.html">Contact us</a>       </li>
+    <li class="huvudmeny"><a href="shopping_cart.php">Shopping cart</a></li>
+    </ul>
+</nav>
+    <!--testa med dropdown menu
+    
+    <div class="mobile-nav">
+     <div class="menu-btn" id="menu-btn">
+	<div></div>
+	<span></span>
+	<span></span>
+	<span></span>
+     </div>
+
+     <div class="responsive-menu">
+        <ul>
+            <li><a class="aktiv" href="index.html">Invictus</a></li>
+            <li><a href="watches.html">Watches</a></li>
+            <li><a href="our_story.html">Our story</a></li>
+            <li><a href="social_media.html">Social media</a></li>
+            <li><a href="contact_us.html">Contact us</a></li>
+            <li><a href="shopping_cart.php">Shopping cart</a></li>
+        </ul>
+     </div>
+    </div-->
+    
+</header>
+    
+
+    
+    <section>
+    <aside>
+        <a href="log_in.php"><h1>Log in</h1></a>
+        <a href="sign_up.php"><h1>Sign up</h1></a>
+        <a href="our_story.html#founders"><h1>Founders</h1></a>
+        </aside>
+    </section>
+    
+<footer>
+    <div id="adress">
+        Contact us
+    <br>
+    <br>
+        Sturegatan 4
+    <br>
+        114 35 Stockholm
+    <br>
+        Sweden
+    <br>
+        <a href="mailto:invictuswatches@gmail.com">invictuswatches@gmail.com</a>
+    <br>
+        <a href="tel:+46 589-861-00">+46 589-861-00</a>
+    </div>
+    
+    <div id="social">
+        Social media
+    <br>
+    <br>
+        <a href="https://www.instagram.com/invictuswatches/">
+        <img src="../images/instagram.png" alt="instagram"/>
+        </a>
+        <a href="https://twitter.com/InvictusWatches">
+        <img src="../images/twitter.png" alt="twitter" />     
+        </a>
+        <a href="https://www.facebook.com/invictuswatches/?notif_t=fbpage_fan_invite">
+        <img src="../images/facebook.png" alt="facebook" />     
+        </a>
+    </div>
+    
+    <div id="account">
+        Account
+    <br>
+    <br>
+        <a href="log_in.php">Log in</a>
+    <br>
+        <a href="sign_up.php">Sign up</a>
+    </div>
+    
+    <div id="payment">
+        Payment methods
+    <br>
+    <br>
+        <img src="../images/mastercard.png" alt="mc" />     
+        <img src="../images/americanexpress.png" alt="amex" />     
+        <img src="../images/visa.png" alt="visa" />     
+        </div>
+</footer>
+</body>
+</html>
