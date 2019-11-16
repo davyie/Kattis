@@ -7,6 +7,7 @@ import java.util.Scanner;
 
 /**
  * Created by davidyu on 2017-04-16.
+ * This is some random text to added in the hello world branch.
  */
 public class apaxian {
     public String fix(String word){
